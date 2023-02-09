@@ -1,0 +1,15 @@
+Use vagrant with VirtualBox note(that in windows system)
+
+1- Download VirtualBox.
+
+2- Download Vagrant.
+
+3- open cd and add image like (vagrant box add ubuntu/focal64)
+
+4- then init (vagrant init ubuntu/focal64)
+
+5- vagrant plugin install vagrant-vbguest -> to avoid issue with the last version of Vagrant (2.2.4 or latest)
+
+6- vagrant up -> it will start your virtual machine
+
+7- vagrant ssh -> now you are inside your virtual machine.
